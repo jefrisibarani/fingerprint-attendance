@@ -1,0 +1,18 @@
+
+
+DpSdkEngLib::FPTemplate 
+   the generated fingerprint template is 1482 Bytes long
+   the device produces an array of byte which its length is 1482
+
+Fingerprint template registration can be done from provided
+AxDPSDKOPSLib::AxFPRegisterTemplateX class
+
+Fingerprint verification can be acomplished using AxDPSDKOPSLib::AxFPVerifyTemplateX 
+
+
+To compare scanned fingerprint with template which is already registered
+use DpSdkEngLib::FPVerify::Compare ()
+
+scanned fingerprint template to be compared :
+AxDPSDKOPSLib._IFPGetTemplateXEvents_DoneEvent's member : pTemplate
+

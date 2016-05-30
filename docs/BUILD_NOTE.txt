@@ -1,0 +1,40 @@
+       
+   *** DEPENDENCIES ***
+   ------------------
+   
+   * .NET Framework 2.0
+   * MS Visual C++ 2005 Express Edition
+   * DigitalPersona Platinum Fingerprint Recognition Software 3.1.0
+     - DPGifTm.dll
+     - DpSdkEng.dll
+     - DpSdkOps.dll
+     - DpSdkUsr.dll
+   * libpqxx-2.5.5      -> libpqxx.lib
+   * PostgreSQL-8.1.1   -> libpq.lib
+   * tinyxml-2.5.2      -> embedded with project
+   
+   * Common Language Runtime Support (/clr) in MSVC
+   
+
+   * include dirs
+   ----------------------
+   - C:\projects\dependencies\postgresql-8.1.1\src\include
+   - C:\projects\dependencies\libpqxx-2.5.5\include
+   - $(ProjectDir)src\tinyxml-2.5.2
+   - $(ProjectDir)
+   - $(ProjectDir)src
+   - $(ProjectDir)src\db
+   
+   note : $(ProjectDir) =  c:\projects\fingerprint\
+   
+   * library dirs
+   ----------------------
+   - c:\projects\dependencies\postgresql-8.1.1\src\interfaces\libpq\Release
+   - C:\projects\dependencies\libpqxx-2.5.5\win32\lib
+   
+   * libraries
+   ----------------------
+   - comsuppw.lib
+   - libpg.dll
+   - libpqxx.lib
+-------------------------------------------------------------------------------------------
